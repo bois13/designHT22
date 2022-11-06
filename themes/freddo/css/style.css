@@ -80,6 +80,7 @@ body {
 
 .footer .social {
     font-size: 2rem;
+    padding: 1rem;
 }
 
 /* Typografy */
@@ -88,6 +89,7 @@ body {
     font-family: sans-serif;
     line-height: 1.5rem;
     color: #444;
+    padding: 1rem;
 }
 
 p, td, th, li, dd {
@@ -103,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+    max-width: 300px;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
