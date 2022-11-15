@@ -16,7 +16,7 @@ Jag har alltid haft ett intresse för teknik och programmering. Idag är det mes
 
 Jag bor på Tjörn, är gift och har tre söner.
 
-Jag har höga förväntningar och tycker att det ska bli jätteroligt att läsa programmet Webbprogrammering 120 hp. Jag läser webbprogrammering då jag är väldigt intresserad av det. I framtiden kanske jag jobbar med det på heltid, deltid eller bara på fritiden så vi får se vad som händer helt enkelt. 😉
+Jag har höga förväntningar och tycker att det ska bli jätteroligt att läsa programmet Webbprogrammering 120 hp. Jag läser webbprogrammering då jag är väldigt intresserad av det. I framtiden kanske jag jobbar med det på heltid, deltid eller bara på fritiden så vi får se vad som händer helt enkelt. <i class="far fa-smile-wink" aria-hidden="true"></i>
 
 I och med att jag jobbar deltid och har fullt upp med familj och allt så känns det som att distansprogrammet verkar vara en bra lösning som passar mig just nu!
 

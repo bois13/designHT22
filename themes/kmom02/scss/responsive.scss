@@ -1,0 +1,38 @@
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+@media (max-width: 624px) {
+    .header {
+        * {
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: auto;
+            text-align: center;
+        }
+
+        img {
+            max-width: 67vw;
+        }
+    }
+    
+    .nav-toggle {
+        margin: auto;
+    }
+}
+
+@media (min-width: 770px) {
+    .header {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1670px) {
+    .header {
+        * {
+            padding: 0;
+        }
+    }
+}
