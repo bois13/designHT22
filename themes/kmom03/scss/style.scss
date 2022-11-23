@@ -9,8 +9,9 @@
 @import 'code';
 
 @import 'responsive';
-// @import 'title';
+@import 'title';
 @import 'report';
+@import 'technologies';
 
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -36,7 +37,7 @@ h6 {
 
 img {
     max-width: 33vw;
-    margin: $magic-number;
+    margin: $magic-number 0;
 }
 
 // ol, ul {
