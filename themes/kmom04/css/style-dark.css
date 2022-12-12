@@ -309,10 +309,6 @@ template {
 }
 
 /* Header */
-.header {
-  max-width: 67rem;
-}
-
 .header,
 .site-header {
   display: flex;
@@ -334,13 +330,13 @@ template {
   display: flex;
   justify-content: space-between;
   flex: 0 0 auto;
-  border-top: 1px solid #4ABA12;
+  border-top: 1px solid #4aba12;
   min-height: 3.08rem;
   padding: 1.54rem;
   background-color: #570455;
 }
 .footer a {
-  color: #4ABA12;
+  color: #4aba12;
   text-decoration: none;
 }
 .footer .social {
@@ -359,13 +355,6 @@ body {
 p {
   font-size: 1.1rem;
   margin-bottom: 1.54rem;
-}
-
-.header {
-  max-width: 67rem;
-}
-.header * {
-  padding: 1.54rem;
 }
 
 .main {
@@ -420,32 +409,23 @@ pre code {
     font-size: 112.5%;
   }
 }
-@media (min-width: 770px) {
+@media (max-width: 770px) {
   .header {
-    margin: auto;
+    margin: 1.54rem;
   }
 }
-@media (max-width: 1120px) {
+@media (max-width: 1300px) {
   .header * {
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-flow: column wrap;
+    align-self: stretch;
     margin: auto;
     text-align: center;
-  }
-  .header .logo,
-  .header .title {
-    padding: 1.54rem 0;
   }
   .header img {
     max-width: 67vw;
   }
   .nav-toggle {
     margin: auto;
-  }
-}
-@media (max-width: 1710px) {
-  .header * {
-    padding: 0;
   }
 }
 @media (max-width: 2160px) {
@@ -459,13 +439,9 @@ pre code {
   }
 }
 /* Title */
-.title,
-.logo {
-  padding: 3em 3em 3em 0;
-}
-
-.title * {
-  color: #4ABA12;
+.title {
+  color: #4aba12;
+  align-self: center;
 }
 
 .title p {
@@ -627,12 +603,12 @@ pre code {
 th,
 td {
   text-align: center;
-  border: 2px solid #4ABA12;
+  border: 2px solid #4aba12;
   padding: 1rem;
 }
 
 li {
-  color: #4ABA12;
+  color: #4aba12;
 }
 
 /*!
@@ -6750,7 +6726,7 @@ readers do not read off random characters that represent icons */
 }
 
 * {
-  color: #4ABA12;
+  color: #4aba12;
   font-family: "Roboto", sans-serif;
 }
 
@@ -6780,10 +6756,8 @@ body {
 
 /* Placement */
 body {
-  display: flex;
-  flex-direction: column;
   background-color: #23004b;
-  color: #4ABA12;
+  color: #4aba12;
 }
 
 .main {

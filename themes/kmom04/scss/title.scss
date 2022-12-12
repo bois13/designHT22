@@ -1,9 +1,9 @@
 /* Title */
 
-.title,
-.logo {
-    padding: 3em 3em 3em 0;
-}
+// .title,
+// .logo {
+//     padding: $magic-number;
+// }
 
 // @media (max-width: 767px) {
 //     .title,
@@ -20,8 +20,9 @@
 //     }
 // }
 
-.title * {
+.title {
     color: $font-color;
+    align-self: center;
 }
 
 .title p {

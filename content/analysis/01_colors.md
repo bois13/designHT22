@@ -26,7 +26,6 @@ Resultat
 
 ### Polisen
 
-
 #### Skärmdump
 
 ![Skärmdump från polisen.se](%assets_url%/img/polisen.se_no-img.png)
