@@ -6751,12 +6751,12 @@ img {
 html,
 body {
   height: 100%;
-  background-color: #90a660;
 }
 
 /* Placement */
 body {
   background-color: #90a660;
+  overflow-x: hidden;
 }
 
 .main {

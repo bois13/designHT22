@@ -13,6 +13,7 @@
 @import 'report';
 @import 'technologies';
 @import 'table';
+@import 'grid';
 
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -63,6 +64,14 @@ body {
     background-color: $background-color;
     color: $font-color;
     overflow-x: hidden;
+
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        background-color: $hover-color;
+    }
 }
 
 .main {

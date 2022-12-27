@@ -1,0 +1,40 @@
+.gallery.grid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    column-gap: 0.5vw;
+    row-gap: 0.5vw;
+}
+
+.grid-item {
+    img {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+.embed-container {
+    height: 0;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 0.5vw;
+}
+  
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Set the number of columns to 1 for mobile screens */
+@media (max-width: 667px) {
+    .gallery.grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,5 +1,5 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables-dark';
+@import 'variables';
 
 @import 'header';
 @import 'footer';
@@ -13,6 +13,7 @@
 @import 'report';
 @import 'technologies';
 @import 'table';
+@import 'grid';
 
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -39,7 +40,6 @@ h6 {
 img {
     max-width: 33vw;
     margin: $magic-number 0;
-    filter: brightness(71%);
 }
 
 // ol, ul {
@@ -53,6 +53,7 @@ img {
 html,
 body {
     height: 100%;
+
 }
 
 /* Placement */
@@ -61,14 +62,17 @@ body {
     // display: flex;
     // flex-direction: column;
     background-color: $background-color;
-    color: $font-color;
     overflow-x: hidden;
+
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        background-color: $hover-color;
+    }
 }
 
 .main {
     flex: 1 0 auto;
 }
-
-// .main {
-//     background-color: yellow;
-// }
