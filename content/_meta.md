@@ -1,5 +1,5 @@
 ---
-Logo: /assets/img/me.png
+Logo: image/me.png?w=600&crop-to-fit
 Tagline: My portfolio
 Social:
     - title: Länk till kursens Youtube-kanal

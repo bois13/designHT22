@@ -1,0 +1,34 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        {{ content }}
+        {# Container element for the grid #}
+        <div class="gallery grid">
+            {# Use a loop to generate the image elements #}
+            {% for i in 1..9 %}
+                <div class="grid-item">
+                    {# Display the image #}
+                    <a href="{{ base_url }}/image/christmas_{{ i }}.jpg" target="_blank">
+                        <picture>
+                            <source media="(min-width: 900px)" srcset="{{ base_url }}/image/christmas_{{ i }}.jpg?w=400&crop-to-fit">
+                            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/christmas_{{ i }}.jpg?w=300&crop-to-fit">
+                            <img src="{{ base_url }}/image/christmas_{{ i }}.jpg?w=667&crop-to-fit" alt="Christmas {{ i }}">
+                        </picture>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+
+        {# Add the embed-container #}
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/55QAOfDy5QQ" title="Henrik Dorsin talar alla världens språk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

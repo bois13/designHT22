@@ -1,0 +1,22 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="landingpage technologies">
+            <h1>{{ meta.title }}</h1>
+
+                {% for page in pages("technology") if not page.hidden %}
+                    <div class="tech-box {{ page.title|lower }}">
+                        <a href="{{ page.url }}" aria-label="{{ page.title }}"></a>
+                        <h2>{{ page.title }}</h2>
+                    </div>
+                {% endfor %}
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+$font-color: #4aba12;
+$font-alternative-color: #fff;
+// $accent-color: #ee6c4d;
+$background-color: #23004b;
+$code-background-color: #171717;
+$background-alternative-color: #570455;
+$background-alternative-color-transparent: #570455b0;
+$hover-color: #57045687;
+
+$base-line-height: 1.4;
+$base-font-size: 1.1rem;
+$magic-number: $base-line-height * $base-font-size;
+
+$viewport-height: 100vh;
+$offset: 513.762px;
+$footer-min-height: $magic-number * 2;

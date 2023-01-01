@@ -1,7 +1,7 @@
 ---
 Title: Färganalys
 Description: Färganalys
-Template: index
+Template: analysis
 ---
 
 Färganalys

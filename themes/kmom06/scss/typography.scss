@@ -1,0 +1,60 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: $base-line-height;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+}
+
+// .header {
+//     // max-width: 67rem;
+    
+//     * {
+//         padding: $magic-number;
+//     }
+// }
+
+.main {
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin: 0 auto;
+    // min-height: calc($viewport-height - $offset - $footer-min-height);
+    min-height: 40vh;
+}
+
+// Add perspective through creating depth as a design principle
+// h1,
+.nav {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+}
+
+// Add variety and hierarchy and proportion as design principles
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    // font-size: 3em;
+    margin-bottom: $magic-number * 2;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: normal;
+    text-transform: none;
+}
+
+// Add top line as a design principle
+section {
+    border-top: 1px solid;
+    margin: 20px;
+    padding: 10px;
+}

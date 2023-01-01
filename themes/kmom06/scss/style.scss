@@ -1,0 +1,80 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'header';
+@import 'footer';
+@import 'typography';
+
+@import 'blockquote';
+@import 'code';
+
+@import 'responsive';
+@import 'title';
+@import 'report';
+@import 'technologies';
+@import 'table';
+@import 'grid';
+
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/fontawesome';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    color: $font-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    // max-width: 33vw;
+    margin: $magic-number 0;
+}
+
+// ol, ul {
+//     padding-left: 1.5em;
+// }
+
+.hidden {
+    display: none !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    // display: flex;
+    // flex-direction: column;
+    background-color: $background-color;
+    overflow-x: hidden;
+
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        background-color: $hover-color;
+    }
+}
+
+.main {
+    flex: 1 0 auto;
+    // Add lines as a design principle
+    border-left: 1px solid;
+    border-right: 1px solid;
+}

@@ -1,7 +1,7 @@
 ---
 Title: Laddningstid
 Description: Laddningstid
-Template: index
+Template: analysis
 ---
 
 Analys av laddningstid
@@ -33,7 +33,7 @@ Resultat
 -----------------------
 
 <div class="spread-sheet">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbWp_Lb4wqZUNrahzYNkmocob1tPd_TCiZxtaI2QpBnjO8tGyDPYELMwQD6tJkDuO-5BY1KGhbZFU-/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <iframe title="Sammanställning av mätvärden" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbWp_Lb4wqZUNrahzYNkmocob1tPd_TCiZxtaI2QpBnjO8tGyDPYELMwQD6tJkDuO-5BY1KGhbZFU-/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 </div>
 
 

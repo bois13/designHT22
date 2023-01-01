@@ -1,0 +1,21 @@
+/* footer.scss */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    border-top: 1px solid $font-color;
+    min-height: 10vh;
+    padding: $magic-number;
+    background-color: $background-alternative-color;
+
+    a {
+        color: $font-color;
+        text-decoration: none;
+    }
+
+    .social {
+        font-size: $base-font-size * 3;
+        padding: 1rem;
+    }
+}
